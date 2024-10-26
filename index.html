@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Talent Directory</title>
+</head>
+<body>
+    <div class="container">
+        <div class="mt-5">
+            <h1>Talent Directory</h1>
+            <p class="my-4">This talent directory showcases some incredibly talented people I’ve had the privilege to call my colleagues and friends at XYZ. Please take a moment to browse their profiles, share this page, and support these amazing folks in finding their next role.</p>
+        </div>
+        <div class="filters">
+            <div class="filter-item">
+                <select class="native-dropdown" id="location-dropdown">
+                    <option value="">All Locations</option>
+                </select>
+            </div>
+            <div class="filter-item">
+                <select class="native-dropdown" id="team-dropdown">
+                    <option value="">All Teams</option>
+                </select>
+            </div>
+            <div class="filter-item">
+                <button id="relocation-filter" class="filter-button">Open to Relocation</button>
+            </div>
+            <div class="filter-item">
+                <button id="remote-filter" class="filter-button">Open to Remote Roles</button>
+            </div>
+        </div>
+        <div id="directory-grid">
+            <!-- Directory items will be populated here -->
+        </div>
+    </div>
+</body>
+</html>
