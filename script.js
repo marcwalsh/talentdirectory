@@ -35,7 +35,7 @@ function populateDirectory(data) {
       <div class="linkedin-icon">
         ${person.linkedin ? `<a href="${person.linkedin}" target="_blank"><img src="linkedin-in.svg" alt="LinkedIn" style="width: 24px; height: 24px;"></a>` : ''}
       </div>
-      <h6>At XYZ I...</h6>
+      <h6>At Mozilla I...</h6>
       <p>${person.atMozilla}</p>
       <h6>I'm looking for...</h6>
       <p>${person.lookingForRoles}</p>
