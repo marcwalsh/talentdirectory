@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&family=Nunitos:wght@400;600;700&display=swap');
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   background: #fafafa;
   color: #000;
   line-height: 1.6;
@@ -45,12 +45,20 @@ body {
   background: #f0f0f0;
 }
 
-h2 {
-  font-size: 1.8rem;
+h1 {
+  font-family: 'Zilla Slab';
+  font-size: 2.5rem;
   color: #000;
   margin-bottom: 5px;
   font-weight: 700;
-  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Zilla Slab';
+  font-size: 1.8rem;
+  color: #000;
+  margin-bottom: 5px;
+  font-weight: 400;
 }
 
 h3 {
@@ -123,11 +131,11 @@ p {
 .native-dropdown,
 .filter-button {
   font-size: 1.1rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   padding: 12px;
   border: 3px solid #000;
-  height: auto;
-  min-height: 50px;
+  height: 60px;
+  min-height: 60px;
   box-sizing: border-box;
   appearance: none;
   cursor: pointer;
