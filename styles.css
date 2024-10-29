@@ -87,10 +87,11 @@ p {
 
 .linkedin-icon {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 24px;
+  right: 24px;
   display: inline-block;
 }
+
 
 .linkedin-icon a {
   color: #000;
